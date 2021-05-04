@@ -1,1 +1,6 @@
+br\com\cursojavanow\dynamicreports\dinamico\SimpleAdhocReport.class
+br\com\cursojavanow\dynamicreports\exemplos\StartExemplo.class
+br\com\cursojavanow\dynamicreports\exemplos\SimpleAdhocReport.class
 br\com\cursojavanow\dynamicreports\Start.class
+br\com\cursojavanow\dynamicreports\conf\Conexao.class
+br\com\cursojavanow\dynamicreports\junit\exemplos\Calculator.class

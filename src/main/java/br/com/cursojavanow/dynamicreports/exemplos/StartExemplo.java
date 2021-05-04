@@ -11,8 +11,17 @@ package br.com.cursojavanow.dynamicreports.exemplos;
  */
 public class StartExemplo {
 
-    public static void simpleAdhocReport() {
-        new SimpleAdhocReport();
+    public static void callReport(ReportType reportType) {
+        switch (reportType) {
+            case SimpleAdhocReport:
+                new SimpleAdhocReport();
+                break;
+            case AdhocCustomizerReport:
+                new AdhocCustomizerReport();
+                break;
+            default:
+        }
+
     }
 
 }
